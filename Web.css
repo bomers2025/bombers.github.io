@@ -48,13 +48,12 @@ body{
 
     margin-right: 250px;
     margin-left: 250px;
-    transition: transforn 1s
+    transition: transform 1s;
 
 }
 
 .img1:hover{
 
-    margin-right: 250px;
-    margin-left: 250px;
-    transition: tranform 1s
+    transform: scale (1.1);
 }
+
