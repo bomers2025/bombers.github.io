@@ -24,7 +24,7 @@ body{
     
     display: flex;
     justify-content: center;
-    
+    align-items: start;
     
     
     
@@ -32,7 +32,7 @@ body{
 
 .container2{
 
-    justify-items: center;
+    justify-items: start;
 
 }
 
@@ -40,14 +40,14 @@ body{
 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
 
 }
 
 .img1{
 
     margin-right: 250px;
-    margin-left: 250px;
+    margin-left: 175px;
     transition: transform 1s
 }
 .img1:hover{
@@ -56,3 +56,26 @@ body{
 
 }
 
+.img2{
+
+    margin-right: 250px;
+    margin-left: 200px;
+    transition: transform 1s
+}
+
+.img2:hover{
+
+    transform: scale(1.1);
+}
+
+.img3{
+
+    transition: transform 1s
+
+}
+
+.img3:hover{
+
+
+    transform: scale(1.1);
+}
