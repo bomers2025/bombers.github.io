@@ -1,0 +1,81 @@
+body{
+
+    background-image:url(1A.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+.button1{
+    background-color: transparent;
+    border: transparent;
+   
+   
+    
+}
+
+
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    
+    
+    
+}
+
+.container2{
+
+    justify-items: start;
+
+}
+
+.container3{
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.img1{
+
+    margin-right: 250px;
+    margin-left: 175px;
+    transition: transform 1s
+}
+.img1:hover{
+
+    transform: scale(1.1);
+
+}
+
+.img2{
+
+    margin-right: 250px;
+    margin-left: 200px;
+    transition: transform 1s
+}
+
+.img2:hover{
+
+    transform: scale(1.1);
+}
+
+.img3{
+
+    transition: transform 1s
+
+}
+
+.img3:hover{
+
+
+    transform: scale(1.1);
+}
