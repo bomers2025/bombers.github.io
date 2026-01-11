@@ -1,9 +1,9 @@
 body{
 
-    background-image:url(1A.jpg) ;
-    background-position: center center;
+    background-image:url(1.A.2.jpg) ;
+    background-position: center bottom;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-color: black;
     background-attachment: fixed;
 }
 
@@ -30,24 +30,21 @@ body{
     
 }
 
-.container2{
 
-    justify-items: start;
-
-}
 
 .container3{
 
     display: flex;
     justify-content: center;
     align-items: end;
+    
 
 }
 
 .img1{
 
-    margin-right: 250px;
-    margin-left: 175px;
+    margin-right: 300px;
+    margin-left: 300px;
     transition: transform 1s
 }
 .img1:hover{
@@ -57,10 +54,12 @@ body{
 }
 
 .img2{
-
-    margin-right: 250px;
-    margin-left: 200px;
+    
+    margin-right: 300px;
+    margin-left: 300px;
     transition: transform 1s
+    
+    
 }
 
 .img2:hover{
@@ -69,13 +68,15 @@ body{
 }
 
 .img3{
-
+    background-color: transparent;
     transition: transform 1s
+    
 
 }
 
 .img3:hover{
 
-
+    
     transform: scale(1.1);
+    
 }
